@@ -16,7 +16,7 @@ print('You will travel for', jp,':', mp,':', dp)
 
 print('----------------------------------')
 
-#Travel time
+#Estimated arrive time
 js = (jb + jp)
 if (js > 24):
     js = int(js) - int(24)
@@ -40,6 +40,6 @@ elif (ds == 60):
     ms = ms + 1
 
 #Result
-print('So your travel time is', js,':', ms,':', ds)
+print('So your estimated arrive time is', js,':', ms,':', ds)
 
 
